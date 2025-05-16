@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+     font-family: monospace;
+     background-color: #030235;
+     font-weight: lighter;
+     font-size: 23px;
+}
+
+a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+.navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 25px 9% ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: visible;
+    }
+    
+
+span{
+    font-size: 30px;
+    font-weight: 700;
+}
+    
+.navbar ul {
+        display: flex;
+        
+    }
+    
+.navbar ul li {
+        list-style: none;
+        margin-left: 35px;
+    }
+    
+.navbar ul li a {
+        font-size: 20px;
+        font-weight: 550;
+        transition: 0.5s;
+    }
+    
+.navbar ul li:hover a,
+.navbar ul li.active a {
+         color: #FFC01D;
+    }
+    
+.navbar .logo span {
+        color: white;
+    }
+
+
+header {
+    color: white;
+    position: relative;
+    padding-top: 35px;
+    padding-left: 30px;
+    font-size: 14px; 
+}
+
+.Fname  {
+    padding-top: 50px;
+    color: #FFC01D;
+}
+
+.profile {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 550px;
+    height: auto;
+}
+    
+header h2 { 
+    color: rgb(94, 155, 2);
+
+    
+}
+
+.Skills h2 {
+    color:rgb(94, 155, 2); 
+}
+.Skills  {
+    padding-top: 35px;
+    padding-left: 30px ;
+    color: white;
+    font-size: 14px; 
+}
+
+.Education {
+    color: white;
+    padding-top: 35px;
+    padding-left: 30px ;
+    font-size: 14px; 
+}
+
+.title {
+    color: rgb(94, 155, 2);
+}
+.school-name {
+    color: rgb(34, 112, 245);
+}
+.school-name span {
+    color: white;
+}
+.Experience {
+    color: white;
+    padding-top: 35px;
+    padding-left: 30px ;
+    font-size: 14px; 
+}
+.Title-Exp {
+    color: rgb(94, 155, 2); ;
+}
+
+.Name-Exp {
+    color: rgb(34, 112, 245);
+}
+.Experience h3 {
+    padding-top: 5px;
+}
+
+
+.info {
+    padding-top: 35px;
+    padding-left: 30px ;
+    font-size: 14px; 
+}
+
+.info {
+    color: white;
+}
+
+.info h3 {
+    padding-left: 20px;
+}
